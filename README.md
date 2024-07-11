@@ -1,1 +1,2 @@
-# Easy_level_Problem_solving using Python 
+# 🐍 Python enthusiast | Solving easy-level problems with joy! 💡 Exploring various coding challenges and sharpening my skills. 🌟 Let's code and learn together!
+
