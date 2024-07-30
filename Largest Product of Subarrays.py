@@ -23,7 +23,7 @@ def parition(nums):
     maximum = max(count)
     print(f'The array {nums}','Output: ' ,maximum)
     
-nums =  [1, -2, -3, 4]
+nums =   [-2, -3, 0, -2, -40]
 parition(nums)
 
 def parition(nums):   
@@ -43,9 +43,11 @@ multiply_both = []
 
 for i in range(len(nums)):
     li = nums[:i] + nums[i+1:]
+    print(li)
     
     for j in range(0, len(li) - 1, 2):
         multiply_both.append(li[j] * li[j+1])
+        
 
 print(max(multiply_both))
 
@@ -62,7 +64,6 @@ for i in range(len(nums)-1):
 print(max(li))
 print(li)
 
-nums = [1, -2, -3, 4]
 multiply_both = []
 
 
@@ -87,7 +88,7 @@ print(max(multiply_both))
 nums = [-2, -3, 0, -2, -40]
 multiply_both = []
 
-# Iterate over the array to calculate products of all subarrays
+
 for i in range(len(nums)):
     current_product = nums[i]
     multiply_both.append(current_product)
@@ -95,6 +96,6 @@ for i in range(len(nums)):
         current_product *= nums[j]
         multiply_both.append(current_product)
 
-# Print the maximum product found
+
 print(multiply_both)
 print(max(multiply_both))
